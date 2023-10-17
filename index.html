@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#e5e7eb" />
+
+    <title>Board Scoring</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./site.webmanifest" />
+  </head>
+  <body
+    class="w-screen h-[100dvh] relative font-sans bg-slate-50 text-black transition-all duration-500"
+  >
+    <div id="player-list" class="flex flex-col text-white text-3xl touch-manipulation">
+      
+    </div>
+
+    <div class="bg-slate-800 w-full grid grid-cols-2 h-20 text-3xl absolute bottom-0">
+      <button id="reset" class="text-white bg-gray-700" onclick="reset()">Reset</button>
+      <button id="order" class="text-white bg-gray-900" onclick="order()">Order</button>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
